@@ -1,9 +1,9 @@
 {
-	"name": "StartingPipeline",
+	"name": "StartingPipeline-Van",
 	"properties": {
 		"activities": [
 			{
-				"name": "F0_ChannelType_Territory_Channel",
+				"name": "F0_ChannelType_Territory_Channel2",
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
@@ -27,7 +27,7 @@
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
-						"activity": "F0_ChannelType_Territory_Channel",
+						"activity": "F0_ChannelType_Territory_Channel2",
 						"dependencyConditions": [
 							"Succeeded"
 						]
