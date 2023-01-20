@@ -8,6 +8,9 @@
 		"promit-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:promit.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
+		"bing-covid-19-data_sasUri": {
+			"value": ""
+		},
 		"promit-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://srcadlsvan.dfs.core.windows.net"
 		}
